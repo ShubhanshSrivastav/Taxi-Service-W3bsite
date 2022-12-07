@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="icon" type="image/png" href="c:\Users\SHUBH SRIVASTAVA\Downloads\taxi logo.png" sizes="64x64" />
+  <title>RentalTaxi-Car</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="utils.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header class="container">
+    <nav class="flex space-between">
+      <div class="left flex items-center">
+        <img src="c:\Users\SHUBH SRIVASTAVA\Downloads\taxi logo.png">
+        <ul class="flex items-center justify-center uppercase semibold">
+          <li><a href="Home">Home</a></li>
+          <li><a href="Services">Services</a></li>
+          <li><a href="About Us">About Us</a></li>
+        </ul>
+      </div>
+
+      <div class="right flex items-center">
+        <input class="search" placeholder="search Destination" class="desktop-searchBar" value="" data-reactid="904"
+          list="search" name="search">
+        <datalist id="search">
+          <option value="manali"></option>
+          <option value="kedarnath"></option>
+          <option value="smila"></option>
+          <option value="jammu & kashmir"></option>
+          <option value="golden temple"></option>
+        </datalist>
+        <div class="rightBox">
+
+          <ul class="flex items-center justify-center uppercase semibold">
+            <li><a href="Feedback">Feedback</a></li>
+            <li><a href="Book Now">Book Now</a></li>
+        </div>
+    </nav>
+  </header>
+  <section>
+    <img src="c:\Users\SHUBH SRIVASTAVA\Downloads\Taxi.jpg">
+    <h3 class="first-text">Book Taxi-Best for OutStation and City</h3>
+  </section>
+  <center><b>
+      <h1>Mini CarTaxi</h1>
+    </b></center>
+  <div class="Row">
+    <div class="column">
+      <img src="c:\Users\SHUBH SRIVASTAVA\Downloads\Alto.jpg" alt="Alto" style="width:200px" id="mk">
+    </div>
+    <div class="column">
+      <img src="c:\Users\SHUBH SRIVASTAVA\Downloads\kwid.jpg" alt="Kwid" style="width:200px" id="mk">
+    </div>
+    <div class="column">
+      <img src="c:\Users\SHUBH SRIVASTAVA\Downloads\nano.jpg" alt="Nano" style="width:200px" id="mk">
+    </div>
+    <div class="column">
+      <img src="c:\Users\SHUBH SRIVASTAVA\Downloads\Wagonr.jpg" alt="Wagnor" style="width:200px" id="mk">
+    </div>
+  </div>
+  <center><b>
+      <h1>Prime CarTaxi</h1>
+    </b></center>
+  <div class="Row">
+    <div class="column">
+      <img src="c:\Users\SHUBH SRIVASTAVA\Downloads\verna.jpg" alt=" Hyundai Verna" style="width:200px" id="mk">
+    </div>
+    <div class="column">
+      <img src="c:\Users\SHUBH SRIVASTAVA\Downloads\Skoda.jpg" alt=" Skoda Slavia " style="width:200px" id="mk">
+    </div>
+    <div class="column">
+      <img src="c:\Users\SHUBH SRIVASTAVA\Downloads\ciaz.jpg" alt="Maruti Suzuki Ciaz " style="width:200px" id="mk">
+    </div>
+    <div class="column">
+      <img src="c:\Users\SHUBH SRIVASTAVA\Downloads\Virtus.jpg" alt="Volkswagen Virtus" style="width:200px" id="mk">
+    </div>
+  </div>
+
+  <h1 style="margin-left:90px">Rate List</h1>
+  <div class="Row">
+    <div class="column">
+      <table style="width:100%" id="tb">
+        <tr>
+          <th>car model</th>
+          <th>price</th>
+        </tr>
+        <tr>
+          <td>Alto</td>
+          <td>1200</td>
+        </tr>
+        <tr>
+          <td>Kwid</td>
+          <td>1500</td>
+        </tr>
+        <tr>
+          <td>Nano</td>
+          <td>1199</td>
+        </tr>
+        <tr>
+          <td>WagnoR</td>
+          <td>1599</td>
+        </tr>
+        <tr>
+          <td>Verna</td>
+          <td>2999</td>
+        </tr>
+        <tr>
+          <td>Skoda</td>
+          <td>2499</td>
+        </tr>
+        <tr>
+          <td>Slavia</td>
+          <td>2599</td>
+        </tr>
+        <tr>
+          <td>ciza</td>
+          <td>2199</td>
+        </tr>
+        <tr>
+          <td>virtus</td>
+          <td>2299</td>
+        </tr>
+      </table>
+    </div>
+    <!--end of table-->
+    <div class="vertical"></div>
+    <!--star of form-->
+    <div class="column">
+      <form>
+        <div class="form-control">
+          <h1>Book Now</h1>
+          <label for="name" id="label-name">
+            Name
+          </label>
+          <input type="text" id="name" placeholder="Enter your name" />
+        </div>
+        <div class="form-control">
+          <label for="email" id="label-email">
+            Email
+          </label>
+          <input type="email" id="email" placeholder="Enter your email" />
+        </div>
+        <div class="form-control">
+          <label for="Contact Number" id="label-Contact Number">
+            Contact Number
+          </label>
+          <input type="text" id="Contact Number" placeholder="Enter your Contact Number" />
+        </div>
+        <div class="form-control">
+          <label for="role" id="label-role">
+            Which Payment Option do yo prefer
+          </label>
+          <select name="role" id="role">
+            <option value="UPI">UPI</option>
+            <option value="Cash on Delivery">Cash on Delivery</option>
+            <option value="Net Banking">
+              Net Banking
+            </option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+
+        <div class="form-control">
+          <label>Book Your Car
+            <small>(Check all that apply)</small>
+          </label>
+          <label for="inp-1">
+            <input type="checkbox" name="inp">Alto</input></label>
+          <label for="inp-2">
+            <input type="checkbox" name="inp">Kwid</input></label>
+          <label for="inp-3">
+            <input type="checkbox" name="inp">Nano</input></label>
+          <label for="inp-4">
+            <input type="checkbox" name="inp">WagnoR</input></label>
+          <label for="inp-5">
+            <input type="checkbox" name="inp">Verna</input></label>
+          <label for="inp-6">
+            <input type="checkbox" name="inp">ciaz</input></label>
+          <label for="inp-7">
+            <input type="checkbox" name="inp">Virtus</input></label>
+          <label for="inp-7">
+            <input type="checkbox" name="inp">Skoda</input></label>
+        </div>
+        <div class="form-control">
+          <button type="submit" value="sumbit">
+            <a href="checkout.html">Submit</a>
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <!--end of the form-->
+  <div class="footer">
+    <p>Author: RentalTaxi-car<br>
+      <a href="mailto:RentalTaxiCar.com">RentalTaxiCar@gmail.com</a>
+    </p>
+  </div>
+</body>
+
+</html>
